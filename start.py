@@ -8,7 +8,7 @@ from modules import code_ocr
 
 def run():
     ocr = code_ocr.CodeOcr()
-    s = ocr.ocr('../image/1.jpg')
+    s = ocr.ocr('./image/1.jpg')
     print(s)
 
 
